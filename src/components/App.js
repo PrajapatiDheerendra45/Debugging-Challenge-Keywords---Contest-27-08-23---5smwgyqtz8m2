@@ -1,6 +1,6 @@
-import './index.css'; // Link to your CSS file
 import React,{useEffect,useState} from "react";
-export function App() {
+import '../styles/App.css';
+const  App= ()=> {
   let[count,setCount]=useState(0)
   return (
     <div className="ball">
@@ -9,3 +9,4 @@ export function App() {
     </div>
   )
 }
+export default App;
